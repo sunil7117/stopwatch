@@ -45,8 +45,8 @@ function App() {
       <h1>Lets create a stopwatch</h1>
       <h3>Timer based on second.</h3>
       <h1>{timer}</h1>
-      <button disabled={start} onClick={()=>timerClick('startSec')}>Start</button>
-      <button disabled={stop} onClick={()=>timerClick('stopSec')}>Stop</button>
+      <button style={{marginRight:'10px'}} disabled={start} onClick={()=>timerClick('startSec')}>Start</button>
+      <button style={{marginRight:'10px'}} disabled={stop} onClick={()=>timerClick('stopSec')}>Stop</button>
       <button disabled={reset} onClick={()=>timerClick('resetSec')}>Reset</button>
       <h3>Timer that show hours,Min and seconds....</h3>
     </div>
